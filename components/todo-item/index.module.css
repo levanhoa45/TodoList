@@ -1,0 +1,42 @@
+.item{
+    @apply py-4 border border-t-0 border-gray-700 cursor-pointer w-2/4 mx-auto text-center;
+  }
+  .item:first-child{
+    @apply border-t;
+  }
+  .item:last-child{
+    @apply rounded-t
+  }
+  .item.done{
+    color: black;
+    @apply line-through;
+  }
+  .add{
+    position: absolute;
+    background-color: darkorange;
+    color: black;
+    font-weight: 500;
+    @apply px-5 py-2 ml-5 border border-gray-700 cursor-pointer;
+  }
+  .delete{
+    position: absolute;
+    left: 75%;
+    margin: auto;
+    border: 2px solid darkorange;
+    padding: 13px 20px;
+    margin-top: -15px;
+    background-color: darkorange;
+    color: black;
+    font-weight: 500;
+  }
+  .edit{
+    position: absolute;
+    left: 70%;
+    margin: auto;
+    border: 2px solid darkorange;
+    padding: 13px 20px;
+    margin-top: -15px;
+    background-color: darkorange;
+    color: black;
+    font-weight: 500;
+  }
